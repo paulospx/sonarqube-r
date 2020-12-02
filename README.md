@@ -1,5 +1,5 @@
 # SonarQube R
-How to upload your R project *lintr* information into SonarQube. This can be used as a *plugin*, to insert R language issues with sonar scanner. 
+Uploading your R project *lintr* information into SonarQube. This can be used as a *plugin*, to insert R language issues with sonar scanner. 
 
 
 
@@ -50,19 +50,7 @@ Issue fields description for Sonar.
 
 
 
-Translating from *lintr json* into SonarQube *json format* can be done online via in this site: 
-
-- https://paulospx.github.io/sonarqube-r/
-
-
-
-To upload the `lintr_out.json`  to **SonarQube** add the following line to your properties file `sonar-project.properties` :
-
-```properties
-sonar.externalIssuesReportPaths=lintr_sonar_out.json
-```
-
-
+The mapping table is used to generate issue type, effort and severity required to ingest the information into SonarQube.
 
 | Linter                             | Issue Type | Effort Minutes | Severity |
 | ---------------------------------- | ---------- | -------------- | -------- |
@@ -102,8 +90,28 @@ sonar.externalIssuesReportPaths=lintr_sonar_out.json
 | `unneeded_concatenation_linter`    | CODE_SMELL | 5              | MINOR    |
 | other non specified in the table   | CODE_SMELL | 5              | MINOR    |
 
-The mapping table is used to generate issue type, effort and severity.
+
+
+Translating from *lintr json* into SonarQube *json format* can be done online via in this site: 
+
+- https://paulospx.github.io/sonarqube-r/
 
 
 
- 
+Save the converted *json* as  the `lintr_out.json` .
+
+Add the following line to your  `sonar-project.properties`  file:
+
+```properties
+sonar.externalIssuesReportPaths=lintr_sonar_out.json
+```
+
+Execute `sonar-scanner` to upload the issues to **SonarQube** server. 
+
+Enjoy.
+
+
+
+# Contribute 
+
+- Twitter: https://twitter.com/paulospx

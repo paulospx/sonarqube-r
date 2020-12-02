@@ -1,0 +1,676 @@
+{
+  "issues": [
+    {
+      "engineId": "test",
+      "ruleId": "rule1",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Variable and function name style should be snake_case.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 4,
+          "endLine": 4,
+          "startColumn": 0,
+          "endColumn": 23
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule2",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use FALSE instead of the symbol F.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 5,
+          "endLine": 5,
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule3",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use TRUE instead of the symbol T.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 6,
+          "endLine": 6,
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule4",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "local variable 'my_var' assigned but may not be used",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 11,
+          "endLine": 11,
+          "startColumn": 0,
+          "endColumn": 15
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule5",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use <-, not =, for assignment.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 11,
+          "endLine": 11,
+          "startColumn": 0,
+          "endColumn": 15
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule6",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Commas should never have a space before.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 16,
+          "endLine": 16,
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule7",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Commas should always have a space after.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 16,
+          "endLine": 16,
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule8",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Commented code should be removed.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 21,
+          "endLine": 21,
+          "startColumn": 0,
+          "endColumn": 20
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule9",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Variable and function name style should be snake_case.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 25,
+          "endLine": 25,
+          "startColumn": 0,
+          "endColumn": 33
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule10",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Variable and function name style should be snake_case.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 26,
+          "endLine": 26,
+          "startColumn": 0,
+          "endColumn": 16
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "local variable 'my.var' assigned but may not be used",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 26,
+          "endLine": 26,
+          "startColumn": 0,
+          "endColumn": 16
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule12",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use is.na rather than == NA.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 32,
+          "endLine": 32,
+          "startColumn": 0,
+          "endColumn": 19
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule13",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use `[[` instead of `[`  to extract an element.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 38,
+          "endLine": 38,
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule14",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use `[[` instead of `$`  to extract an element.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 39,
+          "endLine": 39,
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule15",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Remove spaces before the left parenthesis in a function call.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 44,
+          "endLine": 44,
+          "startColumn": 0,
+          "endColumn": 17
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule16",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 49,
+          "endLine": 49,
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule17",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Put spaces around all infix operators.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 54,
+          "endLine": 54,
+          "startColumn": 0,
+          "endColumn": 25
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule18",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Put spaces around all infix operators.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 54,
+          "endLine": 54,
+          "startColumn": 0,
+          "endColumn": 25
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule19",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Put spaces around all infix operators.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 54,
+          "endLine": 54,
+          "startColumn": 0,
+          "endColumn": 25
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule20",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Put spaces around all infix operators.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 54,
+          "endLine": 54,
+          "startColumn": 0,
+          "endColumn": 25
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule21",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Put spaces around all infix operators.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 54,
+          "endLine": 54,
+          "startColumn": 0,
+          "endColumn": 25
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule22",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Put spaces around all infix operators.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 64,
+          "endLine": 64,
+          "startColumn": 0,
+          "endColumn": 28
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule23",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "`%>%` should always have a space before it and a new line after it, unless the full pipeline fits on one line.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 64,
+          "endLine": 64,
+          "startColumn": 0,
+          "endColumn": 28
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule24",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Avoid 1L:length(...) expressions, use seq_len.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 70,
+          "endLine": 70,
+          "startColumn": 0,
+          "endColumn": 28
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule25",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Trailing whitespace is superfluous.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 74,
+          "endLine": 74,
+          "startColumn": 0,
+          "endColumn": 36
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule26",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Trailing whitespace is superfluous.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 75,
+          "endLine": 75,
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule27",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Unneded concatenation without arguments. Replace the \"c\" call by NULL or vector().",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 80,
+          "endLine": 80,
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule28",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Do not place spaces around code in parentheses or square brackets.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 86,
+          "endLine": 86,
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule29",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Only use double-quotes.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 91,
+          "endLine": 91,
+          "startColumn": 0,
+          "endColumn": 17
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule30",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Place a space before left parenthesis, except in a function call.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 96,
+          "endLine": 96,
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule31",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "There should be a space between right parenthesis and an opening curly brace.",
+        "filePath": "R\\bad.R",
+        "textRange": {
+          "startLine": 96,
+          "endLine": 96,
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule32",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "functions should have cyclomatic complexity of less than 2, this has 10.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 1,
+          "endLine": 1,
+          "startColumn": 0,
+          "endColumn": 27
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule33",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 2,
+          "endLine": 2,
+          "startColumn": 0,
+          "endColumn": 14
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule34",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 3,
+          "endLine": 3,
+          "startColumn": 0,
+          "endColumn": 17
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule35",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 4,
+          "endLine": 4,
+          "startColumn": 0,
+          "endColumn": 19
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule36",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 5,
+          "endLine": 5,
+          "startColumn": 0,
+          "endColumn": 18
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule37",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 13,
+          "endLine": 13,
+          "startColumn": 0,
+          "endColumn": 18
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule38",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 14,
+          "endLine": 14,
+          "startColumn": 0,
+          "endColumn": 20
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule39",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Integers should not be implicit. Use the form 1L for integers or 1.0 for doubles.",
+        "filePath": "R\\complexity.R",
+        "textRange": {
+          "startLine": 15,
+          "endLine": 15,
+          "startColumn": 0,
+          "endColumn": 18
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule40",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use <-, not =, for assignment.",
+        "filePath": "R\\my_bad.R",
+        "textRange": {
+          "startLine": 1,
+          "endLine": 1,
+          "startColumn": 0,
+          "endColumn": 21
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule41",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use TRUE instead of the symbol T.",
+        "filePath": "R\\my_bad.R",
+        "textRange": {
+          "startLine": 2,
+          "endLine": 2,
+          "startColumn": 0,
+          "endColumn": 1
+        }
+      }
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule42",
+      "severity": "INFO",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Use FALSE instead of the symbol F.",
+        "filePath": "R\\my_bad.R",
+        "textRange": {
+          "startLine": 3,
+          "endLine": 3,
+          "startColumn": 0,
+          "endColumn": 1
+        }
+      }
+    }
+  ]
+}
