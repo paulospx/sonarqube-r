@@ -1,0 +1,212 @@
+[
+    {
+      "Linter": "object_usage_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "absolute_path_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "nonportable_path_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "pipe_continuation_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "assignment_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "camel_case_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "closed_curly_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "commas_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "commented_code_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "cyclocomp_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "equals_na_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "extraction_operator_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "function_left_parentheses_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "function_left_parentheses_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "implicit_integer_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "infix_spaces_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "line_length_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "no_tab_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "object_length_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "object_name_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "open_curly_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "paren_brace_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "semicolon_terminator_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "seq_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "single_quotes_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "spaces_inside_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "spaces_left_parentheses_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "todo_comment_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "trailing_blank_lines_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "trailing_whitespace_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "T_and_F_symbol_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "undesirable_function_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "undesirable_operator_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "unneeded_concatenation_linter",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    },
+    {
+      "Linter": "other non specified in the table",
+      "Issue_Type": "CODE_SMELL",
+      "Effort_Minutes": 5,
+      "Severity": "MINOR"
+    }
+}
