@@ -670,7 +670,7 @@
     
       var r = {
         engineId: "test",
-        ruleId: "rule" + (i + 1), // elm.linter,
+        ruleId: "rule" + (i + 1), 
         severity: m.Severity,
         type: m.Issue_Type,
         primaryLocation: {
@@ -687,7 +687,7 @@
       };
       result.push(r);
     }
-    return result;
+    return { "issues": result };
   }
 
 
