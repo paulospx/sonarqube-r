@@ -1,5 +1,5 @@
 # SonarQube R
-How to upload your R project *lintr* information into sonarqube.
+How to upload your R project *lintr* information into SonarQube. This can be used as a *plugin*, to insert R language issues with sonar scanner. 
 
 
 
