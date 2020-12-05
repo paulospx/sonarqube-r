@@ -15,13 +15,15 @@
     <div class="row">
       <div class="col">
         <div class="form-group">
-        <label for="sourceTa">Source JSON</label>
+        <h2>Source Json</h2>
+        <label for="sourceTa">Not recognized by sonar scanner.</label>
         <textarea class="form-control" id="sourceTa" rows="30" style="font-family: Courier, monospace; font-size:12px"></textarea>
       </div>
       </div>
       <div class="col">
              <div class="form-group">
-        <label for="targetTa">Target JSON</label>
+             <h2>Target Json</h2>
+        <label for="targetTa">Recognized by sonar scanner.</label>
         <textarea class="form-control" id="targetTa" rows="30" style="font-family: Courier, monospace;font-size:12px"></textarea>
       </div>
       </div>
@@ -40,7 +42,7 @@
     {
       "Linter": "object_usage_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 1,
       "Severity": "MINOR"
     },
     {
@@ -58,13 +60,13 @@
     {
       "Linter": "pipe_continuation_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 3,
       "Severity": "MINOR"
     },
     {
       "Linter": "assignment_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 1,
       "Severity": "MINOR"
     },
     {
@@ -88,14 +90,14 @@
     {
       "Linter": "commented_code_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 3,
       "Severity": "MINOR"
     },
     {
       "Linter": "cyclocomp_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
-      "Severity": "MINOR"
+      "Effort_Minutes": 15,
+      "Severity": "MAJOR"
     },
     {
       "Linter": "equals_na_linter",
@@ -112,31 +114,31 @@
     {
       "Linter": "function_left_parentheses_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 1,
       "Severity": "MINOR"
     },
     {
       "Linter": "function_left_parentheses_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 1,
       "Severity": "MINOR"
     },
     {
       "Linter": "implicit_integer_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 3,
       "Severity": "MINOR"
     },
     {
       "Linter": "infix_spaces_linter",
       "Issue_Type": "CODE_SMELL",
       "Effort_Minutes": 5,
-      "Severity": "MINOR"
+      "Severity": "MAJOR"
     },
     {
       "Linter": "line_length_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 10,
       "Severity": "MINOR"
     },
     {
@@ -190,7 +192,7 @@
     {
       "Linter": "spaces_inside_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
+      "Effort_Minutes": 3,
       "Severity": "MINOR"
     },
     {
@@ -226,8 +228,8 @@
     {
       "Linter": "undesirable_function_linter",
       "Issue_Type": "CODE_SMELL",
-      "Effort_Minutes": 5,
-      "Severity": "MINOR"
+      "Effort_Minutes": 10,
+      "Severity": "MAJOR"
     },
     {
       "Linter": "undesirable_operator_linter",
